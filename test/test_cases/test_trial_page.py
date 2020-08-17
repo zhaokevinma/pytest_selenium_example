@@ -1,5 +1,5 @@
 from pytest import mark
-from pages.trial_page import TrialPage
+from test.page_objects.trial_page import TrialPage
 
 @mark.smoke
 def test_trial_page(chrome_driver):

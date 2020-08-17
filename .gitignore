@@ -141,4 +141,4 @@ cython_debug/
 chromedriver.exe
 
 # Test Results
-results.html
+*.html

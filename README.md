@@ -16,9 +16,9 @@ DOWNLOAD chromedriver.exe from here https://chromedriver.chromium.org/
 
 
 
-MAKE SURE chromedriver.exe is in PATH or PUT it in ./pytest_selenium_example/
+MAKE SURE chromedriver.exe is in PATH
 
 
 ```
-pytest -v -rxXs
+pytest --html=report.html --self-contained-html -v -rxXs
 ```
